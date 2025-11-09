@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "react-native";
+import { AuthProvider } from "./src/contexts/AuthContext";
+import { PomodoroProvider } from "./src/contexts/PomodoroContext";
+import { BackgroundMusicProvider } from "./src/contexts/BackgroundMusicContext";
+import { Routes } from "./src/routes";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <AuthProvider>
+      <StatusBar
+        barStyle={"light-content"}
+        backgroundColor={"transparent"}
+        translucent
+      />
+      <PomodoroProvider>
+        <BackgroundMusicProvider>
+          <Routes />
+        </BackgroundMusicProvider>
+      </PomodoroProvider>
+    </AuthProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
