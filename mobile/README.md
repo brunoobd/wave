@@ -1,8 +1,8 @@
-# Pomo - Mobile App
+# WAVE - Mobile App
 
 ## Sobre o Projeto
 
-O Pomo é um aplicativo mobile de gerenciamento de tempo baseado na técnica Pomodoro, desenvolvido com React Native e Expo. O aplicativo ajuda usuários a manterem o foco e a produtividade através de ciclos de trabalho e descanso, permitindo que organizem suas tarefas e acompanhem seu progresso.
+O WAVE é um aplicativo mobile de gerenciamento de tempo baseado na técnica Pomodoro, desenvolvido com React Native e Expo. O aplicativo ajuda usuários a manterem o foco e a produtividade através de ciclos de trabalho e descanso, permitindo que organizem suas tarefas e acompanhem seu progresso.
 
 ## Funcionalidades Implementadas
 
@@ -102,7 +102,7 @@ Para executar o aplicativo mobile em seu ambiente local, você precisará:
 
 ```bash
 git clone <url-do-repositorio>
-cd pomo/mobile
+cd wave/mobile
 ```
 
 ### 2. Instale as dependências

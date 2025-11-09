@@ -1,4 +1,4 @@
-# Pomo - Aplicativo de Gerenciamento de Tempo
+# WAVE - Aplicativo de Gerenciamento de Tempo
 
 ## Sobre o Projeto
 
@@ -23,7 +23,7 @@ O projeto é composto por uma API RESTful robusta no backend e um aplicativo mob
 O projeto está dividido em duas partes principais:
 
 ```
-pomo/
+wave/
 ├── backend/          # API RESTful desenvolvida com Node.js e Fastify
 ├── frontend/
 │   └── mobile/      # Aplicativo mobile desenvolvido com React Native e Expo
@@ -75,7 +75,7 @@ Para executar o projeto completo em seu ambiente local, você precisará:
 
 ```bash
 git clone <url-do-repositorio>
-cd pomo
+cd wave
 ```
 
 ### 2. Configure e inicie o backend
@@ -87,7 +87,7 @@ npm install
 # Configure o arquivo .env (veja o README do backend)
 # Crie um arquivo .env com:
 # PORT=3333
-# DATABASE_URL="postgresql://usuario:senha@localhost:5432/pomo?schema=public"
+# DATABASE_URL="postgresql://usuario:senha@localhost:5432/wave?schema=public"
 # JWT_SECRET="seu-secret-jwt-super-seguro"
 # FRONTEND_URL="http://localhost:8081"
 
@@ -104,7 +104,7 @@ A documentação da API (Swagger) estará em `http://localhost:3333/docs`
 ### 3. Configure e inicie o frontend (mobile)
 
 ```bash
-cd frontend/mobile
+cd mobile
 npm install
 
 # Configure o arquivo .env (opcional)
@@ -126,7 +126,7 @@ Para instruções detalhadas sobre a configuração de cada componente, consulte
 ## Estrutura de Pastas
 
 ```
-pomo/
+wave/
 ├── backend/
 │   ├── prisma/              # Schema e migrações do banco de dados
 │   ├── src/
@@ -134,18 +134,17 @@ pomo/
 │   │   ├── lib/             # Bibliotecas e configurações
 │   │   └── utils/           # Utilitários
 │   └── package.json
-├── frontend/
-│   └── mobile/
-│       ├── src/
-│       │   ├── components/   # Componentes reutilizáveis
-│       │   ├── contexts/    # Contextos React
-│       │   ├── hooks/       # Custom hooks
-│       │   ├── routes/      # Configuração de rotas
-│       │   ├── screens/     # Telas da aplicação
-│       │   ├── services/    # Serviços de API
-│       │   └── utils/       # Utilitários
-│       ├── assets/          # Imagens, ícones, sons
-│       └── package.json
+├── mobile/
+│   ├── src/
+│   │   ├── components/   # Componentes reutilizáveis
+│   │   ├── contexts/    # Contextos React
+│   │   ├── hooks/       # Custom hooks
+│   │   ├── routes/      # Configuração de rotas
+│   │   ├── screens/     # Telas da aplicação
+│   │   ├── services/    # Serviços de API
+│   │   └── utils/       # Utilitários
+│   ├── assets/          # Imagens, ícones, sons
+│   └── package.json
 └── README.md
 ```
 
@@ -204,7 +203,7 @@ npm run build    # Compilar TypeScript
 ### Mobile
 
 ```bash
-cd frontend/mobile
+cd mobile
 npm start        # Iniciar servidor Expo
 npm run android  # Abrir no Android
 npm run ios      # Abrir no iOS
@@ -264,6 +263,8 @@ O app usa `http://localhost:3333` automaticamente
 Este projeto está sob a licença ISC.
 
 ## Autores
+- Bruno Barbosa Duarte
+- 
 
 Desenvolvido como projeto integrador.
 

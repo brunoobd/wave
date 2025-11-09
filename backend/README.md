@@ -1,8 +1,8 @@
-# Pomo - Backend API
+# WAVE - Backend API
 
 ## Sobre o Projeto
 
-O Pomo é um aplicativo de gerenciamento de tempo baseado na técnica Pomodoro, que ajuda usuários a manterem o foco e a produtividade através de ciclos de trabalho e descanso. Este backend fornece uma API RESTful completa para autenticação de usuários e gerenciamento de tarefas.
+O WAVE é um aplicativo de gerenciamento de tempo baseado na técnica Pomodoro, que ajuda usuários a manterem o foco e a produtividade através de ciclos de trabalho e descanso. Este backend fornece uma API RESTful completa para autenticação de usuários e gerenciamento de tarefas.
 
 ## Funcionalidades Implementadas
 
@@ -62,7 +62,7 @@ Para executar o backend em seu ambiente local, você precisará:
 
 ```bash
 git clone <url-do-repositorio>
-cd pomo/backend
+cd wave/backend
 ```
 
 ### 2. Instale as dependências
@@ -80,7 +80,7 @@ Crie um arquivo `.env` na raiz do diretório `backend` com o seguinte conteúdo:
 PORT=3333
 
 # URL do banco de dados PostgreSQL
-DATABASE_URL="postgresql://usuario:senha@localhost:5432/pomo?schema=public"
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/wave?schema=public"
 
 # Secret para assinatura de tokens JWT
 JWT_SECRET="seu-secret-jwt-super-seguro-aqui"
