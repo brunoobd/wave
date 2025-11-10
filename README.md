@@ -263,7 +263,8 @@ Este projeto está sob a licença ISC.
 
 ## Autores
 - Bruno Barbosa Duarte
-- Nicolas Nascimento Barrozo da Silva 
+- Nicolas Nascimento Barrozo da Silva
+- Edna Souza Salgado 
 
 Desenvolvido como projeto integrador.
 
