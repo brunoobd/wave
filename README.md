@@ -24,9 +24,8 @@ O projeto está dividido em duas partes principais:
 
 ```
 wave/
-├── backend/          # API RESTful desenvolvida com Node.js e Fastify
-├── frontend/
-│   └── mobile/      # Aplicativo mobile desenvolvido com React Native e Expo
+├── backend/         # API RESTful desenvolvida com Node.js e Fastify
+├── mobile/          # Aplicativo mobile desenvolvido com React Native e Expo
 └── README.md        # Este arquivo
 ```
 
@@ -121,7 +120,7 @@ Siga as instruções no terminal para abrir no emulador ou dispositivo físico.
 Para instruções detalhadas sobre a configuração de cada componente, consulte os READMEs específicos:
 
 - **[Instruções do Backend](./backend/README.md)** - Configuração completa da API, banco de dados, variáveis de ambiente e rotas disponíveis
-- **[Instruções do Mobile](./frontend/mobile/README.md)** - Configuração do aplicativo mobile, emuladores, dispositivos físicos e troubleshooting
+- **[Instruções do Mobile](./mobile/README.md)** - Configuração do aplicativo mobile, emuladores, dispositivos físicos e troubleshooting
 
 ## Estrutura de Pastas
 
@@ -273,4 +272,4 @@ Desenvolvido como projeto integrador.
 Para mais informações, consulte os READMEs específicos:
 
 - [Backend README](./backend/README.md)
-- [Mobile README](./frontend/mobile/README.md)
+- [Mobile README](./mobile/README.md)
