@@ -265,6 +265,7 @@ Este projeto está sob a licença ISC.
 - Bruno Barbosa Duarte
 - Nicolas Nascimento Barrozo da Silva
 - Edna Souza Salgado 
+- Maria Carolina Gonçalves da Silva
 
 Desenvolvido como projeto integrador.
 
