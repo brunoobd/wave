@@ -266,6 +266,7 @@ Este projeto está sob a licença ISC.
 - Nicolas Nascimento Barrozo da Silva
 - Edna Souza Salgado 
 - Maria Carolina Gonçalves da Silva
+- Rafaela Cristina Carneiro Borba Menezes
 
 Desenvolvido como projeto integrador.
 
