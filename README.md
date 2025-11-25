@@ -267,6 +267,7 @@ Este projeto está sob a licença ISC.
 - Edna Souza Salgado 
 - Maria Carolina Gonçalves da Silva
 - Rafaela Cristina Carneiro Borba Menezes
+- Ariany Alves Dos Anjos Mendes
 
 Desenvolvido como projeto integrador.
 
